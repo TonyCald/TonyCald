@@ -1,0 +1,177 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <!-- The <head> indicates metadata, such as the title and stylesheet, stuff that isn't visible to the end user -->
+    <title>CSS Quartermaster</title> <!-- Note the format of the CSS -->
+    <style>
+        
+        h1{
+            font-size: 100px;
+        }
+        
+        h3 {
+            color: lightgreen;  
+        }
+
+        body {
+            background-color: darkolivegreen;
+                
+        }
+
+        #SocialContest {
+            color: aqua;                                        /* IDs are indicated with #hashes */
+        }
+        
+        #title{
+            text-align: center;
+        }
+
+        .disclaimers {
+            color: gray;                                         /* classes are indicated with .periods IDs must be unique, but classes can apply to multiple tags */
+        }
+        
+        .list{
+            font-family: sans-serif;                             /* When selecting a font family list a backup in case the computer                                                             cannot render that font. Start specific and go more generic.  */
+            line-height: 50px;
+            
+        }
+        
+        
+        p {
+            
+        }
+        /* font CSS commands include color, font-family, font-size, font-weight, font-style */
+        /* Also, line-height, text-align, text-decoration */
+        
+
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Xarlaon's Cache!</h1>                   <!-- Headings range from the largest h1 to the smallest h6 -->
+    <p>Welcome to the Weapon's Depot. Home of the finest in...</p>    <!-- <p> tags indicate normal text -->
+    <ul class="list" id="adlist">
+                                                                      <!-- UL provides an Unordered (bulleted) List -->
+        <li>Blasters</li>                                              <!-- <li> indicates List Items -->
+        <li>Launchers</li>
+        <li>BioWeapons</li>
+        <li>Exotic Blades</li>
+    </ul>
+    <p>...this side of the galactic core</p>
+    <h3>Having trouble deciding? Here are our top sellers!</h3>
+    <ol class="list">
+                                                                        <!-- <ol> provides an Ordered (numbered) List -->
+        <li>NASA SI Kinetic m1911 Pistol</li>
+        <li>Mars Project Plasma Rifle (Open Source Edition)</li>
+        <li>Virus-B-Gone (Flash Sale on NOW!)</li>
+        <li>Teslashlakov Automatica 99</li>
+        <li>EarthCo. Organic GMO-Free Serrated Handblade</li>
+    </ol>
+    <h3>Our Gallery</h3>
+    <p id="SocialContest">Don't forget to tag us on Probr, BlastSite or Instagram with #XarGun</p>                               <!-- IDs are individual indicators which the computer can identify -->
+        <img src="https://www.dropbox.com/s/0e92s50yng3usvv/Retro.jpg?dl=1" alt="The deceptivley toy-like 'RetroBlaster'" title="The deceptivley toy-like 'RetroBlaster'" height="300">
+        <img src="https://www.dropbox.com/s/vclz3g11xfy5mb5/Sata.jpg?dl=1" alt="The Planetary Targetr '97 Edition" title="The Planetary Targetr '97 Edition" height="300">
+        <img src="https://www.dropbox.com/s/wf7k2mgapspq8gf/Star%20Dagger.jpg?dl=1" alt="1st prize in our selfie contest recives this classic Stardagger!" title="1st prize in our selfie contest recives this classic Stardagger!" height="300">
+    <p class="disclaimers">By participating in the XarGun Social Media Contest, the user herebyu waives rights to all images submitted for contest purposes</p> <!-- classes are similar to IDs in function, but they indicate whole groups -->
+
+    <br>
+    <br>
+
+    <a href="https://en.wikipedia.org/wiki/Laser">Learn More about our History</a> <!-- <a href="URL.com">linktext<a>  provides a link that replaces the current page -->
+    <br>
+    <a target="_blank" href="www.wikipedia.org">Open an Infocom Link in a new tab</a> <!-- <a href="URL.com">linktext<a>  provides a link that opens a new tab -->
+
+    <!-- using the href attribute above, you can also turn Media into links. ex: <a href="weblink.com"><img src="pictureURL.com"></a> -->
+
+
+    <br>
+    <br>
+    <br>
+    <a href="https://www.youtube.com/watch?v=bD7bpG-zDJQ"><img src="https://www.dropbox.com/s/yze8hjxs9l3uvaa/220px-StormTrooper_Blaster.jpg?dl=1"></a>
+    <br>
+    <br>
+    <h3>Get Your Gaurdian!</h3>
+    <p>Xarlaon is happy to announce a partnership with VetGuard, the Galaxy's most beloved cruelty-free Pet Adoption service. If you want a furry, slimey, or scaly friend in your life, please consider giving these multi-legged heroes a new home.</p>
+    <table>
+        <thead>
+            <tr>
+                <th> Guardian Name</th>
+                <th> Species</th>
+                <th> Color</th>
+                <th> Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>Zolga</td>
+                <td>Uranian Spaniel</td>
+                <td>Deep Blue</td>
+                <td> This beautiful girl is ready to retire! Despite the hypperactive reputation of Uranian Spaniels, Zolga is a well-trained, calm service animal. Perfect for families seeking a little quiet.</td>
+            </tr>
+            <tr>
+                <td>L'pshuzxz</td>
+                <td>Jupitarian Horror</td>
+                <td>Unknown</td>
+                <td>From deep beneath the rolling stormclouds of Jupiter comes Sparkles, the friendliest monstrosity you'll ever meet! Sparkles loves parks, sunny days, and playing games with her multiple tendrils. </td>
+            </tr>
+            <tr>
+                <td>Spiffy</td>
+                <td>Terrier Mix</td>
+                <td>Brown</td>
+                <td>Spiffy was called "The Hero of St. Armstrong" by her Space Force Unit. This brave young pup is credited with saving dozens of lives during the Bombardment of the New Boston. </td>
+            </tr>
+            <tr>
+                <td>FX-456</td>
+                <td>Olde Boston Dynamics "FX" Model A</td>
+                <td>Chrome w/ Black Matte</td>
+                <td>You CAN teach an old dog new tricks! 456 has been outclassed by the newer GX line, but you can't upgrade love. Activating snuggles.exe!</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+<!-- The actual code for making tables is kind of annoying, so here's a sample.  -->
+    
+     <table>
+        <thead>
+            <tr>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+             <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td> </td>
+            </tr>
+         </tbody>
+            
+    <br>
+    <br>
+    <br>
+    <!-- You can have links link to the parts of the same page using IDs and href attributes -->
+    <br>
+         
+    <br>
+    <p class="disclaimers">Xarlaon's Cache is a proud supporter of the 72nd Amendment. "It is the duty of the Federated Union of Earth Republics to provide Weapons, Ammunition, Education, and other means of ensuring self-defense to all citizens. Present federally-offciated vouchers during operating hours every Thursday, Friday, <a href=#title>Nl'gulzuday</a> and Saturday. We accept SNAP."</p>
+
+
+</body>
+
+</html>
+
+
